@@ -1,0 +1,39 @@
+#idStudent, #nameStudent {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    float: left;
+  }
+
+.list {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.list table {
+    border-collapse: collapse;
+    border-top: 1px solid #a2a2a2;
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 0px 1px #a9a9a9 inset;
+}
+
+.list table th{
+    text-transform: uppercase;
+}
+
+.list table td,th {
+    padding: 15px;
+    border-bottom: 1px solid #dedede; 
+    font-size: 14px;
+}
+
+.list table tr:nth-child(even) td {
+    background: #ececec;
+}
+ 
