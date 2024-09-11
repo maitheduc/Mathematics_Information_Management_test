@@ -4,9 +4,9 @@ import { Toaster } from "vue-sonner";
 </script>
 
 <template>
-    <RouterView />
-    <VueQueryDevtools />
-    <Toaster richColors position="top-right" />
+  <RouterView />
+  <VueQueryDevtools />
+  <Toaster richColors position="top-right" />
 </template>
 
 <style scoped></style>
